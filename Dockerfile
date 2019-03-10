@@ -1,3 +1,3 @@
-FROM php:7.2-apache
+FROM ashutoshh/ocphp
 COPY   index.html   /var/www/html
-EXPOSE  80
+EXPOSE  8080
